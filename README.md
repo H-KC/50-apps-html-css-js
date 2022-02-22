@@ -9,3 +9,7 @@
 ## Rotating-Navbar
 ![1](https://user-images.githubusercontent.com/49081526/155179060-22961859-73cf-4b33-8d48-533956fb8f55.PNG)
 ![2](https://user-images.githubusercontent.com/49081526/155179088-4b7a519a-5dcf-435f-83b8-9c3d65812af4.PNG)
+
+## Hidden Search Button
+![1](https://user-images.githubusercontent.com/49081526/155211809-a5774c07-8ae9-4be7-9556-ef47e0b5c8f4.PNG)
+![2](https://user-images.githubusercontent.com/49081526/155211815-5228308b-8dd1-4892-9423-ba1752d450f5.PNG)
