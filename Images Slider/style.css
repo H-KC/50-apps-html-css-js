@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  background-position: center center;
+  background-size: cover;
+  transition: background-image 0.6s linear;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.slider {
+  width: 68vw;
+  height: 75vh;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50px;
+  transition: background-image 0.6s linear;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.arrow {
+  background-color: transparent;
+  padding: 20px;
+  margin: 0;
+  border: 2px solid orange;
+  color: orange;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: orange;
+  color: white;
+}
+.arrow:focus {
+  outline: none;
+}
